@@ -1,0 +1,40 @@
+.container {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sub-container {
+  background-image: linear-gradient(#ff6e74, #bfe9ff);
+  width: 80%;
+  max-width: 500px;
+  height: 80vh;
+  max-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #334155;
+  border-radius: 10px;
+  font-family: 'Roboto';
+}
+.heading {
+  font-size: 40px;
+  color: #0f172a;
+}
+.sub-heading {
+  font-size: 30px;
+}
+.button {
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  border: none;
+}
+@media screen and (min-width : 768px) {
+  .button{
+    padding: 20px;
+    font-size: 20px;
+  }
+}
